@@ -35,3 +35,30 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+
+/* Hide Scrollbar */
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.fpr-12 {
+  padding-right: 12px;
+}
+
+.fpl-20 {
+  padding-left: 20px;
+}
+
+.vp-button {
+  width: 130px;
+  margin-right: 12px;
+}

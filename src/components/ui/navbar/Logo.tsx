@@ -4,10 +4,10 @@ export default function Logo() {
   return (
     <Link
       href="/"
-      className="group flex items-center gap-4 transition-all duration-300"
+      className="group flex items-center gap-5 transition-all duration-300"
     >
       {/* Logo */}
-      <div className="relative flex h-11 w-11 items-center justify-center">
+      <div className="relative flex h-20 w-20 items-center justify-center">
         <svg
           width="42"
           height="42"
@@ -50,8 +50,6 @@ export default function Logo() {
         <span className="text-sm font-semibold tracking-tight text-white">
           CDN Studio
         </span>
-
-        <span className="text-xs text-slate-500">Engineering Studio</span>
       </div>
     </Link>
   );
