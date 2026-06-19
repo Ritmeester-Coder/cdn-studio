@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <Section
       id="hero"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden pt-32 md:pt-0 fpt-80"
     >
       <HeroBackground />
 

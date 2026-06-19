@@ -58,6 +58,10 @@ body::-webkit-scrollbar {
   padding-left: 20px;
 }
 
+.fpt-80 {
+  padding-top: 80px;
+}
+
 .vp-button {
   width: 130px;
   margin-right: 12px;

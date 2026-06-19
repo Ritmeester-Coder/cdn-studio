@@ -11,7 +11,7 @@ export default function MobileNav() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 h-[72px] border-b border-white/5 bg-slate-950/80 backdrop-blur-xl">
+      <header className="fixed inset-x-0 top-0 z-50 h-16 border-b border-white/5 bg-slate-950/80 backdrop-blur-xl">
         <div className="flex h-full items-center justify-between px-6">
           <Logo />
 
