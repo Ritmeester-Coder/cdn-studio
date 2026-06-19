@@ -62,3 +62,7 @@ body::-webkit-scrollbar {
   width: 130px;
   margin-right: 12px;
 }
+
+.pad-10 {
+  padding: 10px;
+}

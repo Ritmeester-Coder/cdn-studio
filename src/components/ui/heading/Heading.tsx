@@ -35,7 +35,9 @@ export default function Heading({
       </h2>
 
       {subtitle && (
-        <p className="max-w-2xl text-lg leading-8 text-slate-400">{subtitle}</p>
+        <p className="max-w-2xl text-lg leading-[1.1] text-slate-400">
+          {subtitle}
+        </p>
       )}
     </div>
   );

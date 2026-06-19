@@ -38,7 +38,7 @@ export default function ViewProfileButton({
         ${fullWidth ? "w-full" : ""}
       `}
     >
-      <span>View Profile</span>
+      <span>View My Work</span>
 
       <ArrowRight
         size={16}
