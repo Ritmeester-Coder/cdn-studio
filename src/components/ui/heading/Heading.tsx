@@ -3,7 +3,7 @@ import clsx from "clsx";
 
 type HeadingProps = {
   eyebrow?: string;
-  title: string;
+  title: ReactNode;
   subtitle?: ReactNode;
   align?: "left" | "center";
   className?: string;
@@ -19,7 +19,7 @@ export default function Heading({
   return (
     <div
       className={clsx(
-        "space-y-4",
+        "space-y-6",
         align === "center" && "text-center",
         className,
       )}
@@ -30,12 +30,27 @@ export default function Heading({
         </p>
       )}
 
-      <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+      <h2
+        className="
+          text-4xl
+          font-bold
+          leading-[1.05]
+          tracking-tight
+          text-white
+          sm:text-5xl
+          lg:text-6xl
+        "
+      >
         {title}
       </h2>
 
       {subtitle && (
-        <p className="max-w-2xl text-lg leading-[1.1] text-slate-400">
+        <p
+          className={clsx(
+            "mx-auto max-w-2xl text-lg leading-8 text-slate-400",
+            align === "left" && "mx-0",
+          )}
+        >
           {subtitle}
         </p>
       )}

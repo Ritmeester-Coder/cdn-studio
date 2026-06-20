@@ -4,7 +4,7 @@ export default function HeroHeading() {
   return (
     <Heading
       align="center"
-      title="Engineering solutions that solve real business problems."
+      title="Engineering solutions that businesses depend on."
       className="max-w-full"
     />
   );

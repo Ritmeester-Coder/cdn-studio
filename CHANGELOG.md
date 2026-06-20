@@ -1,54 +1,95 @@
-# CDN Studio
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+This project follows a milestone-based versioning approach where each version represents a significant stage in the evolution of CDN Studio.
 
 ---
 
-## v0.2.0
+## [0.5.0] - 2026-06-21
+
+### Added
+
+- About section architecture
+- About Heading component
+- About Content component
+- Engineering Principles section
+- Business Metrics section
+- Company philosophy and brand messaging
+- Improved Heading component supporting `ReactNode` titles
+
+### Changed
+
+- Established CDN Studio's brand identity
+- Introduced the philosophy:
+  > _"Trust is earned in the details."_
+- Improved typography consistency across the site
+- Refined section architecture for future scalability
+
+---
+
+## [0.4.0] - 2026-06-20
+
+### Added
+
+- Complete Hero section
+- Hero Background
+- Hero Badge
+- Hero Heading
+- Hero Content
+- Hero Actions
+- Hero Stats
+- Reusable design system components
+- Button component
+- Card component
+- Container component
+- Section component
+- Responsive Hero layout
+
+### Changed
+
+- Refined Hero typography
+- Improved CTA layout
+- Optimized Hero spacing
+- Enhanced mobile responsiveness
+- Established CDN Studio visual identity
+
+---
+
+## [0.3.0] - 2026-06-19
 
 ### Added
 
 - Responsive desktop navigation
-- Mobile navigation architecture
-- Mobile drawer foundation
-- SVG logo
-- View Profile button component
-- Shared navigation component
-- Global theme
-- Tailwind v4 configuration
-- Design system folder structure
+- Mobile navigation
+- Mobile drawer
+- Navigation architecture
+- Logo component
+- View Profile button
+- Navigation links component
 
-### Improved
+### Changed
 
-- Navbar architecture
-- Component separation
-- Project folder structure
+- Refactored Navbar into reusable components
+- Improved project architecture
+- Standardized component structure
 
 ---
 
-## v0.4.0 – Landing Experience
+## [0.2.0] - 2026-06-18
 
-✨ Added
+### Added
 
-- Complete Hero section
-- HeroBackground
-- HeroBadge
-- HeroHeading
-- HeroContent
-- HeroActions
-- HeroStats
+- Initial Next.js project
+- Tailwind CSS setup
+- Basic landing page structure
+- Initial section architecture
 
-🎨 UI
+---
 
-- Responsive desktop navigation
-- Mobile navigation architecture
-- Design system components
-- Production Button v2
-- Reusable Container and Section components
-- Improved typography and spacing
-- Engineering-inspired visual identity
+## [0.1.0] - 2026-06-18
 
-🏗 Architecture
+### Added
 
-- Feature-based folder structure
-- Component composition for Hero
-- Reusable UI primitives
-- Responsive layout foundation
+- Project initialization
+- Repository creation
